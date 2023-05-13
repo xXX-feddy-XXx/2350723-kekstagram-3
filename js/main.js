@@ -8,3 +8,17 @@ function getRandomInt (a, b) {
 function checkStringLenght(str, len) {
   return str.length <= len;
 }
+
+let info = [];
+
+for(let i = 0; i < 25; i++){
+  photoInfo.push({
+    id: i+1,
+    url: 'photos/' + (i+1) + '.jpg',
+    description: 'ФОТО',
+    likes: getRandomInteger(15, 200),
+    comments: getRandomInteger(0, 200)
+  });
+}
+
+console.log(info[24]);
