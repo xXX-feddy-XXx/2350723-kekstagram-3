@@ -12,7 +12,7 @@ function checkStringLenght(str, len) {
 let info = [];
 
 for(let i = 0; i < 25; i++){
-  photoInfo.push({
+  info.push({
     id: i+1,
     url: 'photos/' + (i+1) + '.jpg',
     description: 'ФОТО',
