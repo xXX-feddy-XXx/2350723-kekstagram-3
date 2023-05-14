@@ -1,3 +1,6 @@
-import { info } from './data.js'
+import { photosInfo } from './data.js';
 
-console.log(info[24]);
+import { showPicturesFromObjects } from './render.js';
+
+showPicturesFromObjects(photosInfo);
+
